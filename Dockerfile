@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER cmccormick@pulselink.net
+MAINTAINER rommac100@gmail.com
 RUN apt-get update && apt-get upgrade -y
 ARG DEBIAN_FRONTEND=noninteractive
 # Install Dropbox dependencies
